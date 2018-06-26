@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> formulario </title>
+
+</head>
+<body bgcolor="plum">
+
+<h1> Encuesta de presentacion </h1>
+<font size="4" face="arial" color="black">
+<form action="mailto:<noelygonzalez11@gmail.com>: method="post">
+<p>
+1. ¿Esta pagina contiene suficiente informacion? <br>
+<input type=radio name=informacion value="sicontiene"> Si <br>
+<input type=radio name=informacion value="nocontiene"> No <br>
+
+<p>
+2. ¿Te parece que hubo buen contraste en la pagina? <br>
+<input type=radio name=contraste value="sihubo"> Si <br>
+<input type=radio name=contraste value="nohubo"> No <br>
+
+<p>
+<input type=hidden name=presentacion value="pagina">
+3. ¿Como es la presentacion de la pagina? <br>
+<select name=calidad>
+<option> buena
+<option> mala
+<option> regular 
+</select>
+
+<p>
+4.¿Las imagenes son significativas? <br>
+<input type=radio name=imagenes value="poco"> Poco <br>
+<input type=radio name=imagenes value="mucho"> Mucho <br>
+
+<p>
+<input type=hidden name=evaluacion value="paginaempresarial">
+5. Evalua la pagina <br>
+<select name=calificacion>
+<option> 5
+<option> 6
+<option> 7
+<option> 8
+<option> 9
+<option> 10
+</select>
+
+<p>
+6. ¿que piensas que le hizo falta a nuestra pagina? o ¿que es lo que tu agregarias?
+<br>
+<textarea name=agregar rows=10 cols=50  wrap=virtual>
+</textarea>
+
+<p>
+<input type=submit value="Enviar">
+<input type=reset value="Borrar">
+
+</form>
+</font>
+</body>
+</html>
+
+
+
+
+
